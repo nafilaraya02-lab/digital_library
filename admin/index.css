@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #020215 0%, #030833 40%, #001280 75%, #0022ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    padding: 2% 6%;
+}
+
+nav .logo{
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero-content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8% 5% 8%;
+    gap: 40px;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-text{
+    flex: 1;
+    color: white;
+    text-align: left;
+}
+
+.hero-text h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: lowercase;
+    margin-bottom: 25px;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-transform: lowercase;
+}
+
+.btn-action{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    gap: 12px;
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+
+    color: #030833;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+.btn-action img{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.btn-action:hover{
+    transform: scale(1.02);
+}
