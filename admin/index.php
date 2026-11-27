@@ -24,7 +24,7 @@ include 'koneksi.php';
 </div>
 
 <div class="content">
-    <h2>SELAMAT DATANG ADMIN 👋</h2>
+    <h2>SELAMAT DATANG ADMIN</h2>
 
     <div class="dashboard">
         <div class="card">Jumlah Buku</div>

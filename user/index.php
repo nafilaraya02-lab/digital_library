@@ -18,14 +18,14 @@
                 <span>Cari judul, penulis, kode buku...</span>
             </a>
         </div>
-        <div class="book-grid">a.jpg
+        <div class="book-grid">
              <div class="book-card">
                 <img src="bb.jpg" alt="book-cover">
                 <h3>Bahasa Pemograman Dasar</h3>
                 <span class="badge-status">Tersedia</span>
             </div>
              <div class="book-card">
-                <img src="" alt="book-cover">
+                <img src="a.jpg" alt="book-cover">
                 <h3>Pemograman Pyton</h3>
                 <span class="badge-status">Tersedia</span>
             </div>
